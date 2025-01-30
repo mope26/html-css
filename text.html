@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header {
+        display: flex;
+        justify-content: space-between;  /* Spreads the header content (title and icons) */
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    header h2 {
+        font-size: 2rem;
+    }
+    
+    header .apps-container {
+        display: flex;
+        align-items: center;
+        width: 100%;                /* Ensure the container spans the entire width */
+    }
+    .fa-ellipsis-vertical{
+        margin-left: 50px;
+    }
+    header .top-icons {
+        display: flex;
+        gap: 15px;                  /* Add space between icons */
+        align-items: center;        /* Vertically align the icons */
+        justify-content: flex-end;  /* Align the icons to the right side of the container */
+        width: 100%;                /* Ensure icons take up available width */
+    }
+    
+    header .top-icons i {
+        font-size: 1.3rem;          /* Icon size */
+    }
+    
+    header .user-avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: #f1f1f1; /* Add background to the avatar if needed */
+        padding: 5px;
+    }
+    </style>
+<body>
+    <header>
+        <h2>Ajopay</h2>
+        <div class="apps-container">
+            
+        <div class="top-icons">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            
+            <i class="fa-regular fa-bell"></i>
+            <div class="user-avatar">
+            <i class="fa-regular fa-user"></i>
+          </div>
+          </div>
+</body>
+</html>
